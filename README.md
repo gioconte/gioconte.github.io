@@ -11,5 +11,5 @@ Head Mounted Displays such as Oculus Rift (both DK1 and DK2).
 #Acknoledgement
 
 The tool was entirely developed by Giorgio Conte who belongs to the [Creative Coding Research Group](https://www.evl.uic.edu/creativecoding/), directed by Prof.
-Angus Forbes. The research group is part of the Electronic Visualization Lab ([EVL](https://www.evl.uic.edu)) at University of Illinois at Chicago (UIC).
+Angus Forbes. The research group is part of the [Electronic Visualization Lab]((https://www.evl.uic.edu)) (EVL) at University of Illinois at Chicago (UIC).
 This research is being done in collaboration with Alex Leow, Olusola Ajilore, and Allen Ye, all belonging to UIC Department of Psychiatry.
