@@ -13,7 +13,15 @@ var colorMap = {
     'Occipital':'#d62728',
     'Subcortical': '#1f77b4' ,
     'Temporal': '#ff7f0e',
-    'brainstem' : '#7f7f7f'
+    'brainstem' : '#7f7f7f',
+    'hippocampus' : '#d62728',
+    'thalamus': '#1f77b4',
+    'putamen' : '#2ca02c',
+    'precuneus' : '#9467bd',
+    'superiorParietal':'#e377c2',
+    'Superior frontal Cortex':'#bcbd22',
+    'Paracentral':'#17becf',
+    'Pallidum':'#8c564b'
 }
 
 scaleColorGroup = function (group, nodeIndex) {
