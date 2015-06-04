@@ -683,7 +683,7 @@ addGroupList = function () {
 
     menu.append("label")
         .attr("for","place")
-        .text("Community");
+        .text("Embeddedness");
 
     menu.append("br")
 
