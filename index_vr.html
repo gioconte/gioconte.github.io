@@ -13,7 +13,7 @@
         queue()
                 .defer(setFolder,folderName)
                 .awaitAll( function() {
-                    console.log(folder);
+                     console.log(folder);
                 });
     }
 
@@ -31,156 +31,11 @@ Click on the name of the dataset to visualize it in a desktop compatible version
 
 <ul>
     <li>
-        <a onclick="location.href=this.href+'?dataset=Anatomic&vr=0&load=0';return false;" href="visualization.html">Complete Connectome</a>
+        <a onclick="location.href=this.href+'?dataset=Demo1&vr=0&load=0';return false;" href="visualization.html">Complete Connectome</a>
         &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Anatomic&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
+        <a onclick="location.href=this.href+'?dataset=Demo1&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
         &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Anatomic&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=BetweennessCoeff&vr=0&load=0';return false;" href="visualization.html">Betweenness</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=BetweennessCoeff&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=BetweennessCoeff&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Cluster&vr=0&load=0';return false;" href="visualization.html">Cluster</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Cluster&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Cluster&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Embeddedness&vr=0&load=0';return false;" href="visualization.html">Embeddedness</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Embeddedness&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Embeddedness&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=NodalPL&vr=0&load=0';return false;" href="visualization.html">Nodal PL</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=NodalPL&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=NodalPL&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=RandomRemoval&vr=0&load=0';return false;" href="visualization.html">Random Removal</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=RandomRemoval&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=RandomRemoval&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=RichClub&vr=0&load=0';return false;" href="visualization.html">Rich Club</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=RichClub&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=RichClub&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Strength&vr=0&load=0';return false;" href="visualization.html">Strength</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Strength&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Strength&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-</ul>
-
-<h2>Functional Connectome</h2>
-
-<h3>Version 2</h3>
-<ul>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Controlled_v2&vr=0&load=0';return false;" href="visualization.html">Controlled</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v2&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v2&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Diseased_v2&vr=0&load=0';return false;" href="visualization.html">Depressed</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v2&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v2&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-</ul>
-
-<h3>Version 2 - Age Matched</h3>
-<ul>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Controlled_v2_am&vr=0&load=0';return false;" href="visualization.html">Controlled</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v2_am&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v2_am&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Diseased_v2_am&vr=0&load=0';return false;" href="visualization.html">Depressed</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v2_am&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v2_am&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-</ul>
-
-
-<h3>Version 3</h3>
-<ul>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Controlled_v3&vr=0&load=0';return false;" href="visualization.html">Controlled</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v3&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v3&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Diseased_v3&vr=0&load=0';return false;" href="visualization.html">Depressed</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v3&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v3&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-</ul>
-
-
-<h3>Version 3 - Age Matched</h3>
-<ul>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Controlled_v3_am&vr=0&load=0';return false;" href="visualization.html">Controlled</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v3_am&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v3_am&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Diseased_v3_am&vr=0&load=0';return false;" href="visualization.html">Depressed</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v3_am&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v3_am&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-</ul>
-
-
-
-<h3>Version 4 - Age Matched - No Dijkstra</h3>
-<ul>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Controlled_v4&vr=0&load=0';return false;" href="visualization.html">Controlled</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v4&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Controlled_v4&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
-    </li>
-    <li>
-        <a onclick="location.href=this.href+'?dataset=Diseased_v4&vr=0&load=0';return false;" href="visualization.html">Depressed</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v4&vr=1&load=0';return false;" href="visualization.html">Oculus V1</a>
-        &nbsp&nbsp&nbsp
-        <a onclick="location.href=this.href+'?dataset=Diseased_v4&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
+        <a onclick="location.href=this.href+'?dataset=Demo1&vr=2&load=0';return false;" href="visualization.html">Oculus V2</a>
     </li>
 </ul>
 
