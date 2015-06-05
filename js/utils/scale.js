@@ -22,7 +22,8 @@ var colorMap = {
     'Superior frontal Cortex':'#bcbd22',
     'Paracentral':'#17becf',
     'Pallidum':'#8c564b',
-    'Cingulate':'#ff7f0e'
+    'Cingulate':'#ff7f0e',
+    'Caudate':'#ad494a'
 
 }
 
